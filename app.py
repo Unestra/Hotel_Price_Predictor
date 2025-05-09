@@ -6,7 +6,8 @@ import pandas as pd
 with open('hotel_price_model.pkl', 'rb') as f:
     model = pickle.load(f)
     
-st.title(" Project2_Group4: 🔮 Hotel Price Predictor")
+st.title(" Project2_Group4: ")
+st.title(" 🔮 Hotel Price Predictor ")
 
 
 
