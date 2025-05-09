@@ -27,4 +27,4 @@ if st.button("Predict Price"):
 
     # ทำนาย
     predicted_price = model.predict(input_df)[0]
-    st.success(f"💰 Estimated Price: {predicted_price:.2f} บาท")
+    st.success(f"💰 Estimated Price: {predicted_price:.2f} ฺbaht")
